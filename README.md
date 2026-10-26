@@ -1,6 +1,6 @@
  <div align="center">
 
-# 🛞 SmartWheel Inspection System
+# SmartWheel Inspection System
 
 ### 자동차 바퀴 불량 검사 및 스마트팩토리 생산관리 시스템
 

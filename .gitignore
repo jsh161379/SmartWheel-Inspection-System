@@ -1,0 +1,52 @@
+# Visual Studio 임시 파일
+.vs/
+*.suo
+*.user
+*.slnLaunch.user
+
+# 빌드 결과물
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ipch/
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+
+# Python 가상환경 및 캐시
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 민감한 환경 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 검사 결과 및 임시 파일
+live_results_bg/
+motion_test_logs/
+
+# 압축 파일
+*.zip
+
+# 운영체제 임시 파일
+Thumbs.db
+.DS_Store
+
+# WinForms 연결 및 인증 설정
+camera_config.json
+camera_config.json.bak
+client_config.json
+
+# MFC 연결 설정
+client_config.ini

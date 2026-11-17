@@ -34,7 +34,7 @@ Raspberry Pi에서 YOLO 및 OpenCV 기반 검사를 수행하고, Arduino Uno로
 | **개발 인원** | 5명 |
 | **개발 형태** | 팀 프로젝트 |
 | **검사 대상** | 타이어와 휠이 조립된 자동차 바퀴 |
-| **핵심 기술** | YOLO, OpenCV, Arduino, Raspberry Pi, WinForms, MFC, TCP/IP, SQL DB |
+| **핵심 기술** | YOLO, OpenCV, Arduino, Raspberry Pi, WinForms, MFC, TCP/IP, SQLite |
 
 ### 핵심 목표
 
@@ -66,7 +66,7 @@ flowchart TD
     K --> L["TCP/IP 서버"]
     L --> M["C# WinForms<br/>현장 제어"]
     L --> N["C++ MFC<br/>생산 관리"]
-    L --> O[("SQL DB")]
+    L --> O[("SQLite")]
 
     classDef hardware fill:#e8f1ff,stroke:#4d88c7,color:#17365d
     classDef vision fill:#e9f7f0,stroke:#4b9b73,color:#20563c
@@ -87,7 +87,7 @@ flowchart TD
 | C# WinForms | 현장 작업자용 장비 제어 |
 | C++ MFC | 관리자용 생산관리 시스템 |
 | TCP/IP | 프로그램 간 데이터 송수신 |
-| SQL DB | 검사 결과 및 생산 정보 저장 |
+| SQLite | 검사 결과 및 생산 정보 저장 |
 
 ---
 
@@ -102,7 +102,7 @@ flowchart TD
 | 현장 프로그램 | C#, WinForms |
 | 관리자 프로그램 | C++, MFC |
 | 통신 | TCP/IP |
-| 데이터베이스 | SQL DB |
+| 데이터베이스 | SQLite |
 
 ### Hardware
 
@@ -290,7 +290,7 @@ flowchart LR
 
 | 담당자 | 주요 역할 |
 |---|---|
-| 김초아 | 컨베이어, 자동화, WinForms 제어, SQL DB, 통계, 보고서 |
+| 김초아 | 컨베이어, 자동화, WinForms 제어, SQLite, 통계, 보고서 |
 | **조시현** | 컨베이어, OpenCV, 자동화, WinForms 제어, MFC 대시보드·설비 로그·통계 |
 | 유동호 | 제품 감지, LED/부저, WinForms 모니터링, TCP/IP, 채팅 |
 | 노종헌 | 카메라, Servo, OpenCV, TCP/IP, MFC 검사 이력 |
@@ -324,7 +324,7 @@ flowchart LR
 
 ### SmartWheel — 자동차 바퀴 불량 검사 및 생산라인 자동화 시연
 
-**시연 영상 추가 예정**
+▶️ **[시연 영상 보기](https://youtu.be/t3FngH-gHgY)**
 
 영상에는 제품 투입, 검사, 판정, 불량품 분류 및 현장·관리자 프로그램 동작을 포함할 예정입니다.
 
